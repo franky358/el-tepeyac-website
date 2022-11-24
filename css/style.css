@@ -1,12 +1,4 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
-Theme : ESS Restaurant
-Author Name: Naveen Kumar Verma
-Description: Restaurant - Responsive theme and desgin
-Version: 1.0
-license: https://euclidesoftwaresolutions.com/
-Copyright 2021 ESS Authors
-*/
+
 @charset "UTF-8";
 
 /*==========================================================
@@ -205,7 +197,7 @@ img {
 	color:#000000;
 }
 .primary{
-	color:#fe4e2b;
+	color:#abc45b;
 }
 .secondry{
 	color:#000000;
@@ -521,9 +513,7 @@ a#toTopBtn {
 /*==========================================================
 							Header
 ==========================================================*/
-.fixed-header .navbar-brand img {
-    height: 60px !important;
-}
+
 .navbar-brand img {transition: .5s ease-in-out;}
 .sticky {
     position: fixed;
@@ -552,7 +542,7 @@ a#toTopBtn {
 	text-transform: uppercase;
 }
 .header-area .navbar-nav li a.nav-link.active {
-    color: #fe4e2b !important;
+    color: #7da53b !important;
 }
 ul.dropdown-menu {
     display: block;
@@ -1515,3 +1505,9 @@ section.Reservation-bar {
     display: inline-block;
 }
 /*Theme OPtion change css ends here*/
+
+.navbar-brand img {
+    transition: .5s ease-in-out;
+    height: 100px !important;
+    width: 100px !important;
+}

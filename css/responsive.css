@@ -91,7 +91,8 @@ Copyright 2021 ESS Authors
         font-size: 50px;
     }
     .navbar-light .navbar-toggler {
-        background: #ffffff;
+        background: none;
+        border: none;
     }
     .navbar-collapse {
         padding: 20px;
@@ -138,6 +139,7 @@ Copyright 2021 ESS Authors
     .reservation-form .form-control {
         margin-bottom: 10px;
     }
+
 }
 
 
@@ -331,7 +333,7 @@ Copyright 2021 ESS Authors
     }
     .navbar-brand img {
         transition: .5s ease-in-out;
-        height: 60px !important;
+        height: 80px !important;
     }
     .home-banner {
         min-height: auto;
