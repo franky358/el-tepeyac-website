@@ -971,11 +971,13 @@ ul.dropdown-menu {
 }
 /*dinning css*/
 .private-dining {
-    background-image: url('https://via.placeholder.com/1680');
+    background-image: url('https://s3.us-east-2.amazonaws.com/carbrands.images/catering.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
+
 .private-dining h4 {
     font-size: 50px;
     letter-spacing: 2px;
@@ -1510,4 +1512,11 @@ section.Reservation-bar {
     transition: .5s ease-in-out;
     height: 100px !important;
     width: 100px !important;
+}
+
+
+.subtitle-menu-section {
+    font-size: 16px;
+    color: #000;
+    font-family: "Futura PT";
 }
