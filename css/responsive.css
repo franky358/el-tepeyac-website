@@ -14,6 +14,17 @@ Copyright 2021 ESS Authors
     .container{
         max-width: 1140px !important;
     }
+    .carousel-caption-desk{
+        margin-top: 4rem !important;
+        min-width: 1100px !important;
+    }
+    .carousel-caption-desk-2{
+        margin-top: 4rem !important;
+        min-width: 900px !important;
+    }
+    .py-desk{
+        padding: 0 !important;
+    }
 }
 
 @media (max-width: 1440px){
@@ -25,6 +36,10 @@ Copyright 2021 ESS Authors
     }
     .insta-box img {
         height: 400px;
+    }
+    .description-carousel-desk{
+        margin-top: 2rem !important;
+        font-size: 48px !important;
     }
 }
 
@@ -39,9 +54,30 @@ Copyright 2021 ESS Authors
         max-width: 75%;
         margin: 0 auto;
     }
+    .home-banner .carousel-inner .item .carousel-caption h2 {
+        font-size: 70px !important;
+        margin-top: 5rem !important; 
+     }
+
+     .carousel-caption {
+        margin-top: 5rem !important;
+     }
+
+     .description-carousel{
+        letter-spacing: 4px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1;
+     }
 }
 
 @media (max-width: 991px){
+
+    .carousel-caption {
+        margin-top: 2rem !important;
+     }
+   
+
     .blogs-sidebar {
         display: none;
     }
@@ -80,7 +116,7 @@ Copyright 2021 ESS Authors
         margin: 20px 0 !important;
     }
     .home-banner .carousel-inner .item .carousel-caption {
-        min-width: 54%;
+        min-width: 70%;
         z-index: 2;
     }
     .home-banner .carousel-inner .item .carousel-caption h5 {
@@ -214,7 +250,6 @@ Copyright 2021 ESS Authors
         font-size: 30px;
     }
     .book-order-bar h4 {
-        font-size: 16px;
         font-weight: bold;
     }
     .navbar-expand-lg .navbar-collapse ul.navbar-nav li.nav-item.me-5 {
@@ -253,7 +288,7 @@ Copyright 2021 ESS Authors
         margin-bottom: 20px;
     }
     .order-menu h4 {
-        font-size: 30px;
+        font-size: 24px;
         margin-bottom: 30px;
     }
     .story-detail p.font-Av.mb-5 {
@@ -351,7 +386,7 @@ Copyright 2021 ESS Authors
         z-index: 2;
     }
     .home-banner .carousel-inner .item .carousel-caption h2 {
-        font-size: 40px;
+        font-size: 40px !important;
     }
     .home-banner .carousel-inner .item .carousel-caption h5 {
         font-size: 35px;

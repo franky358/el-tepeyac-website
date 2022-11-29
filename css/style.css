@@ -222,7 +222,7 @@ img {
 	background-color:#000000;
 }
 .primary-bg{
-	background-color:#fe4e2b;
+	background-color: #7da53b;
 }
 .secondry-bg{
 	background-color:#000000;
@@ -252,31 +252,31 @@ img {
     outline: none !important;
 }
 .btn-primary {
-    background: #fe4e2b;
-    border-color: #fe4e2b;
+    background: #7da53b;
+    border-color: #7da53b;
 }
 .btn-primary:hover , .btn-primary:focus {
-    color: #fe4e2b;
+    color: #7da53b;
     background: #ffffff;
-    border-color: #fe4e2b;
+    border-color: #7da53b;
     box-shadow: inset 0 -50px 0 #ffffff !important;
 }
 .btn-outline {
     border-color: #ffffff;
 }
 .btn-outline:hover , .btn-outline:focus {
-    background: #fe4e2b;
+    background: #7da53b;
     border-color: #ffffff;
     color: #ffffff;
-    box-shadow: inset 0 -50px 0 #fe4e2b !important;
+    box-shadow: inset 0 -50px 0 #7da53b !important;
 }
 .btn-black {
     background: #000000;
 }
 .btn-black:hover , .btn-black:focus {
-    color: #fe4e2b;
+    color: #7da53b;
     background: #ffffff;
-    border-color: #fe4e2b;
+    border-color: #7da53b;
     box-shadow: inset 0 -50px 0 #ffffff !important;
 }
 
@@ -971,10 +971,7 @@ ul.dropdown-menu {
 }
 /*dinning css*/
 .private-dining {
-    background-image: url('https://s3.us-east-2.amazonaws.com/carbrands.images/catering.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #000;
     position: relative;
 }
 
@@ -983,7 +980,15 @@ ul.dropdown-menu {
     letter-spacing: 2px;
     line-height: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
+}
+
+.private-title, .private-desc{
+   color: #7da53b;
+}
+.btn-private{
+    background-color: #7da53b !important;
+    border: none !important;
 }
 .btn-row {
     display: flex;
@@ -1057,14 +1062,74 @@ ul.menu-listing li {
 
 /*Book order primary */
 
+
 .book-order-bar h4 {
-    font-size: 14px;
     font-weight: bold;
+    font-size: 28px;
 }
 .book-order-bar a.btn {
     padding: 15px 35px;
 }
 /*Book order primary */
+
+.open-text{
+    color: #7da53b !important;
+}
+
+.btns-order-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    flex-wrap: wrap
+}
+
+.grubhub-btn{
+    border: 3px solid red;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+.grubhub-btn img{
+    width: 100%;
+    height: 100%;
+ }
+
+.doordash-btn{
+    border: 3px solid red;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.doordash-btn img{
+    width: 130px;
+    height: 30px;
+ }
+
+ .uber-btn{
+    border: 3px solid #000;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.uber-btn img{
+    width: 130px;
+    height: 30px;
+ }
+
+
 .primary-title{
     font-size: 24px;
     color: #000000;
@@ -1519,4 +1584,19 @@ section.Reservation-bar {
     font-size: 16px;
     color: #000;
     font-family: "Futura PT";
+}
+
+/*Gallery images*/
+
+.title-food-gallery{
+    margin-top: 3rem;
+    text-align: center; 
+    color: #7da53b;
+}
+
+.text-overlay{
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Futura PT";
+    color: #fff;
 }
