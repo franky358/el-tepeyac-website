@@ -301,7 +301,6 @@ img {
 	position: relative;
 }
 .border-zigzag-up::After {
-    background: linear-gradient(-45deg, #ffffff 10px, #ffffff 10px, #FFFFFF 10px, transparent 0), linear-gradient(45deg, #ffffff 10px, transparent 0);
     background-position: left top;
     background-repeat: repeat-x;
     background-size: 12px 32px;
@@ -1219,7 +1218,7 @@ ul.menu-listing li {
 }
 /*Reservation-bar */
 section.Reservation-bar {
-    background-image: url(https://via.placeholder.com/1680);
+    background-image: url(https://s3.us-east-2.amazonaws.com/carbrands.images/enchiladas.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1598,5 +1597,25 @@ section.Reservation-bar {
     font-weight: bold;
     font-size: 32px;
     font-family: "Futura PT";
+    color: #fff;
+}
+
+.order-online-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.order-online-container h4{
+    font-weight: bold;
+    font-family: "Futura PT";
+    color: #7da53b;
+    
+}
+
+.cta-container{
+    padding: 3rem 0;
+    background-color: #7da53b;
+}
+.cta-title{
     color: #fff;
 }
