@@ -69,6 +69,9 @@ Copyright 2021 ESS Authors
         text-transform: uppercase;
         line-height: 1;
      }
+     .footer-contact{
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 991px){

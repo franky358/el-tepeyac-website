@@ -648,7 +648,6 @@ ul.dropdown-menu {
 }
 .contact .footer .copyright-bar {
     background: #e7f0f3;
-    padding-top: 0;
 }
 .copyright-bar ul.social-media li {
     margin: 0 8px;
@@ -1619,3 +1618,35 @@ section.Reservation-bar {
 .cta-title{
     color: #fff;
 }
+
+.phone-cta-container{
+    margin-top: 2rem;
+}
+
+.address-container{
+    margin-top: 2rem !important;
+}
+
+.phone-cta{
+    font-size: 16px;
+    padding: 16px;
+    margin-left: 1rem;
+    background-color: #fff;
+    color: #7da53b;
+}
+
+.phone-cta:hover{
+    color: #000;
+}
+
+.footer-contact{
+    margin-top: 3rem;
+}
+
+.footer-container-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
